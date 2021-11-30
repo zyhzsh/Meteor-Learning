@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export const Task = ({ task, onCheckboxClick ,onDeleteClick}) => {
+export const Task = ({ task, onCheckboxClick, onDeleteClick }) => {
   return (
     <li>
       <input

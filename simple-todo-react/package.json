@@ -13,12 +13,15 @@
     "meteor-node-stubs": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  },
+  }, 
   "meteor": {
     "mainModule": {
       "client": "client/main.jsx",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
   }
 }
